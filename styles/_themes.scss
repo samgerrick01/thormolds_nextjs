@@ -1,0 +1,19 @@
+@use 'abstracts/index' as *;
+
+body {
+  background-color: $background-color-light;
+  color: $text-color-dark;
+  transition: all 0.3s ease;
+}
+
+body.dark {
+  background-color: $background-color-dark;
+  color: $text-color-light;
+}
+
+.theme-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  margin: 1rem;
+}
